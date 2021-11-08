@@ -78,9 +78,9 @@ public class RegisterNewOrganisation
 	
 	public void giveValues() 
 	{
-		organisationName.sendKeys("Roy EnterPrises 3");
-		otherEmail.sendKeys("ross@aorg.com");
-		phone.sendKeys("234567890");
+		organisationName.sendKeys("Reoy EnterPrises 3");
+		otherEmail.sendKeys("ross@aborg.com");
+		phone.sendKeys("23456789990");
 	}
 	public void save() 
 	{

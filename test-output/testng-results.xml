@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35040" started-at="2021-11-06T11:39:28 IST" finished-at="2021-11-06T11:40:03 IST">
+  <suite name="Default suite" duration-ms="15456" started-at="2021-11-08T21:58:47 IST" finished-at="2021-11-08T21:59:02 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35040" started-at="2021-11-06T11:39:28 IST" finished-at="2021-11-06T11:40:03 IST">
-      <class name="Scripts.CreateOrganisationWithIndustryDropdowns">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:Scripts.CreateOrganisationWithIndustryDropdowns@631330c]" name="openApp" is-config="true" duration-ms="5952" started-at="2021-11-06T11:39:28 IST" finished-at="2021-11-06T11:39:34 IST">
+    <test name="Default test" duration-ms="15456" started-at="2021-11-08T21:58:47 IST" finished-at="2021-11-08T21:59:02 IST">
+      <class name="Scripts.SignInSignOut">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:Scripts.SignInSignOut@631330c]" name="openApp" is-config="true" duration-ms="9273" started-at="2021-11-08T21:58:47 IST" finished-at="2021-11-08T21:58:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="createOrganisationWithDropdowns()[pri:0, instance:Scripts.CreateOrganisationWithIndustryDropdowns@631330c]" name="createOrganisationWithDropdowns" duration-ms="28301" started-at="2021-11-06T11:39:34 IST" finished-at="2021-11-06T11:40:02 IST">
+        <test-method status="PASS" signature="signinout()[pri:0, instance:Scripts.SignInSignOut@631330c]" name="signinout" duration-ms="5441" started-at="2021-11-08T21:58:56 IST" finished-at="2021-11-08T21:59:02 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrganisationWithDropdowns -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Scripts.CreateOrganisationWithIndustryDropdowns@631330c]" name="closeApp" is-config="true" duration-ms="747" started-at="2021-11-06T11:40:02 IST" finished-at="2021-11-06T11:40:03 IST">
+        </test-method> <!-- signinout -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Scripts.SignInSignOut@631330c]" name="closeApp" is-config="true" duration-ms="699" started-at="2021-11-08T21:59:02 IST" finished-at="2021-11-08T21:59:02 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createOrganisationWithDropdowns status=SUCCESS method=CreateOrganisationWithIndustryDropdowns.createOrganisationWithDropdowns()[pri:0, instance:Scripts.CreateOrganisationWithIndustryDropdowns@631330c] output={null}]]]>
+                <![CDATA[[TestResult name=signinout status=SUCCESS method=SignInSignOut.signinout()[pri:0, instance:Scripts.SignInSignOut@631330c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- Scripts.CreateOrganisationWithIndustryDropdowns -->
+      </class> <!-- Scripts.SignInSignOut -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -36,6 +36,7 @@ public class CreateOrganisation extends BaseClass
 		OrganisationinformationPage orginfo = new OrganisationinformationPage(driver);
 		String finalOrginfo = orginfo.getOrganisationText().getText();
 		
+		
 		Assert.assertEquals("Organizations", finalOrginfo );
 	}
 }

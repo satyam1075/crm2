@@ -13,6 +13,19 @@ public class HomePage
 	@FindBy(xpath="//a[text()='Contacts']")
 	private WebElement contactsBtn;
 	
+	@FindBy(xpath="//img[@src='themes/softed/images/user.PNG']")
+	private WebElement signoutMouseHover;
+	
+	@FindBy(xpath="//a[text()='Sign Out']")
+	private WebElement signOutBtn;
+	
+	@FindBy(xpath="//a[text()='More']")
+	private WebElement moreMouseHover;
+	
+	public WebElement getMoreMouseHover() {
+		return moreMouseHover;
+	}
+
 	public WebElement getContactsBtn() {
 		return contactsBtn;
 	}
@@ -35,4 +48,14 @@ public class HomePage
 	{
 		contactsBtn.click();
 	}
+
+	public WebElement getSignoutMouseHover() {
+		return signoutMouseHover;
+	}
+
+	public WebElement getSignOutBtn() {
+		return signOutBtn;
+	}
+	
+	
 }
