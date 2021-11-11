@@ -6,6 +6,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -29,17 +31,43 @@ public class BaseClass
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
+//	@BeforeMethod
+//	public void openApp() throws Throwable, IOException 
+//	{
+//		
+//		String browse = pdata.getData("browser");
+//		
+//		if(browse.equalsIgnoreCase("Chrome")) 
+//		{
+//			WebDriverManager.chromedriver().setup();
+//			driver = new ChromeDriver();
+//		}
+//		
+//		else if(browse.equalsIgnoreCase("firefox")) 
+//		{
+//			driver = new FirefoxDriver();
+//		}
+//		else if(browse.equalsIgnoreCase("IE"))
+//		{
+//			driver = new InternetExplorerDriver();
+//		}
+//		
+//		driver.manage().window().maximize();
+//		driver.get(pdata.getData("url"));
+//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//	}
+	
 	@AfterMethod
 	public void closeApp(ITestResult ref) throws IOException 
 	{
-		int status = ref.getStatus();
-		String name = ref.getName();
-		
-		if (status == 2)
-		{
-			Photo p = new Photo();
-			p.getPhoto(driver, name);
-		}
+//		int status = ref.getStatus();
+//		String name = ref.getName();
+//		
+//		if (status == 2)
+//		{
+//			Photo p = new Photo();
+//			p.getPhoto(driver, name);
+//		}
 		
 		driver.quit();
 	}
