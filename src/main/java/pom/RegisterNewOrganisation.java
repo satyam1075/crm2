@@ -5,8 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import genericLibraries.JavaUtilitY;
+
 public class RegisterNewOrganisation 
 {
+	JavaUtilitY utility = new JavaUtilitY();
 	@FindBy(xpath="//input[@name='accountname']")
 	private WebElement organisationName;
 	
@@ -78,9 +81,9 @@ public class RegisterNewOrganisation
 	
 	public void giveValues() 
 	{
-		organisationName.sendKeys("Reoy EnterPrises 3");
-		otherEmail.sendKeys("ross@aborg.com");
-		phone.sendKeys("23456789990");
+		organisationName.sendKeys("Reoy EnterPrises 3"+ utility.getRandomData());
+		otherEmail.sendKeys("ross@aborg.com"+utility.getRandomData());
+		phone.sendKeys("23456789990"+utility.getRandomData());
 	}
 	public void save() 
 	{

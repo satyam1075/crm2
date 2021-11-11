@@ -2,31 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15456" started-at="2021-11-08T21:58:47 IST" finished-at="2021-11-08T21:59:02 IST">
+  <suite name="Default suite" duration-ms="39" started-at="2021-11-11T17:05:28 IST" finished-at="2021-11-11T17:05:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15456" started-at="2021-11-08T21:58:47 IST" finished-at="2021-11-08T21:59:02 IST">
-      <class name="Scripts.SignInSignOut">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:Scripts.SignInSignOut@631330c]" name="openApp" is-config="true" duration-ms="9273" started-at="2021-11-08T21:58:47 IST" finished-at="2021-11-08T21:58:56 IST">
+    <test name="Default test" duration-ms="39" started-at="2021-11-11T17:05:28 IST" finished-at="2021-11-11T17:05:28 IST">
+      <class name="Scripts.ForBranchPush">
+        <test-method status="PASS" signature="brachPush()[pri:0, instance:Scripts.ForBranchPush@4b553d26]" name="brachPush" duration-ms="6" started-at="2021-11-11T17:05:28 IST" finished-at="2021-11-11T17:05:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="signinout()[pri:0, instance:Scripts.SignInSignOut@631330c]" name="signinout" duration-ms="5441" started-at="2021-11-08T21:58:56 IST" finished-at="2021-11-08T21:59:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signinout -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Scripts.SignInSignOut@631330c]" name="closeApp" is-config="true" duration-ms="699" started-at="2021-11-08T21:59:02 IST" finished-at="2021-11-08T21:59:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=signinout status=SUCCESS method=SignInSignOut.signinout()[pri:0, instance:Scripts.SignInSignOut@631330c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- Scripts.SignInSignOut -->
+        </test-method> <!-- brachPush -->
+      </class> <!-- Scripts.ForBranchPush -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

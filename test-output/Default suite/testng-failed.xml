@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Scripts.CreateContactWithOrganisation">
+      <class name="Scripts.SignInSignOut">
         <methods>
           <include name="openApp"/>
+          <include name="signinout"/>
           <include name="closeApp"/>
-          <include name="cteateContact"/>
         </methods>
-      </class> <!-- Scripts.CreateContactWithOrganisation -->
+      </class> <!-- Scripts.SignInSignOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
